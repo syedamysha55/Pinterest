@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pinterest marketing, Pinterest SEO, social media marketing, affiliate marketing and virtual assistance by Syeda Mysha.">
+  <title>Syeda Mysha | Digital Marketing Portfolio</title>
+  <style>
+    :root {
+      --red: #bd2432;
+      --red-dark: #94202b;
+      --pink: #f8e8e8;
+      --cream: #fffaf7;
+      --ink: #302b2b;
+      --muted: #756969;
+      --line: #e7c9c8;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--ink);
+      font-family: "Segoe UI", Arial, sans-serif;
+      line-height: 1.7;
+    }
+    .page { width: min(980px, 92%); margin: 0 auto; padding: 34px 0 28px; }
+    .topline { height: 5px; width: 100%; background: var(--red); border-radius: 99px; margin-bottom: 28px; }
+    header { text-align: center; padding: 12px 18px 34px; }
+    .eyebrow { color: var(--red); font-size: .76rem; letter-spacing: .19em; font-weight: 700; text-transform: uppercase; }
+    h1 { font-size: clamp(2rem, 5vw, 3.25rem); line-height: 1.15; margin: 10px 0 8px; letter-spacing: -.04em; }
+    .subtitle { color: var(--red-dark); font-weight: 600; font-size: clamp(.9rem, 2vw, 1.05rem); letter-spacing: .04em; }
+    .intro { max-width: 650px; margin: 14px auto 0; color: var(--muted); }
+    .profile-wrap { display: flex; justify-content: center; margin: 0 auto 22px; }
+    .profile-photo {
+      width: 150px; height: 150px; border-radius: 50%; object-fit: cover;
+      border: 5px solid white; outline: 2px solid var(--line);
+      box-shadow: 0 10px 28px #7c31301a; background: var(--pink);
+    }
+    .layout { display: grid; grid-template-columns: 185px 1fr; gap: 34px; align-items: stretch; }
+    .side { border-right: 2px solid var(--line); padding: 7px 24px 20px 0; }
+    .side-title { font-size: .72rem; letter-spacing: .15em; color: var(--red); font-weight: 800; text-transform: uppercase; margin: 0 0 12px; }
+    .nav { display: flex; flex-direction: column; gap: 8px; position: sticky; top: 20px; }
+    .nav a { text-decoration: none; color: var(--muted); font-size: .92rem; padding: 5px 0; }
+    .nav a:hover { color: var(--red); }
+    .side-note { margin-top: 28px; color: var(--muted); font-size: .85rem; }
+    main { min-width: 0; }
+    section { padding: 5px 0 27px; margin-bottom: 21px; border-bottom: 1px solid #f0dfdc; scroll-margin-top: 18px; }
+    section:last-child { border-bottom: 0; margin-bottom: 0; }
+    h2 { margin: 0 0 12px; font-size: 1.35rem; letter-spacing: -.02em; }
+    h2:before { content: ""; display: inline-block; width: 8px; height: 8px; background: var(--red); border-radius: 50%; margin: 0 11px 3px 0; }
+    p { margin: 0 0 10px; }
+    .muted { color: var(--muted); }
+    .service-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .service { background: var(--white); border: 1px solid #f0dfdc; border-radius: 15px; padding: 15px 16px; }
+    .service h3 { margin: 0 0 5px; color: var(--red-dark); font-size: 1rem; }
+    .service p { color: var(--muted); font-size: .9rem; margin: 0; }
+    .tag-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .tag { font-size: .8rem; color: var(--red-dark); background: var(--pink); padding: 5px 10px; border-radius: 999px; }
+    .contact-card { background: #fff1ef; border: 1px solid var(--line); border-radius: 18px; padding: 22px; }
+    .contact-link { display: inline-block; margin-top: 8px; color: white; background: var(--red); padding: 10px 17px; border-radius: 999px; text-decoration: none; font-weight: 700; font-size: .92rem; }
+    .contact-link:hover { background: var(--red-dark); }
+    footer { text-align: center; color: var(--muted); font-size: .82rem; padding: 26px 0 0; }
+    @media (max-width: 650px) {
+      .page { width: min(100% - 28px, 560px); padding-top: 20px; }
+      .layout { grid-template-columns: 1fr; gap: 22px; }
+      .side { border-right: 0; border-bottom: 2px solid var(--line); padding: 0 0 14px; }
+      .nav { position: static; flex-direction: row; flex-wrap: wrap; gap: 6px 17px; }
+      .side-note { display: none; }
+      .service-grid { grid-template-columns: 1fr; }
+      header { padding-left: 0; padding-right: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="topline"></div>
+    <header>
+      <div class="profile-wrap">
+        <!-- Your profile photo is included as a circular PNG: photo.png -->
+        <img class="profile-photo" src="photo.png" alt="Portrait of Syeda Mysha"
+             onerror="this.style.display='none';">
+      </div>
+      <div class="eyebrow">My professional portfolio</div>
+      <h1>Syeda Mysha</h1>
+      <div class="subtitle">PINTEREST MARKETING · SEO · SOCIAL MEDIA · E-COMMERCE</div>
+      <p class="intro">Thoughtful digital support for brands that want to build their online presence, reach the right audience, and share their work with clarity and consistency.</p>
+    </header>
+
+    <div class="layout">
+      <aside class="side">
+        <p class="side-title">Explore</p>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#about">About me</a>
+          <a href="#services">My services</a>
+          <a href="#approach">My approach</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <p class="side-note">Creative thinking.<br>Organized support.<br>Consistent growth.</p>
+      </aside>
+
+      <main>
+        <section id="about">
+          <h2>About Me</h2>
+          <p>I’m a digital marketing and e-commerce learner building practical skills to help businesses present their products and services professionally online. My interests include Pinterest marketing, social media support, SEO, affiliate marketing, and virtual assistance.</p>
+          <p class="muted">I value clear communication, careful organization, and content that feels useful to the audience—not just attractive on the screen.</p>
+        </section>
+
+        <section id="services">
+          <h2>What I Can Help With</h2>
+          <div class="service-grid">
+            <article class="service">
+              <h3>Pinterest Marketing</h3>
+              <p>Business account setup, profile organization, board planning, pin titles and descriptions, and content ideas designed around a brand’s niche.</p>
+            </article>
+            <article class="service">
+              <h3>Pinterest SEO</h3>
+              <p>Keyword-aware board names, pin descriptions, and relevant content organization to help content become easier to discover.</p>
+            </article>
+            <article class="service">
+              <h3>Social Media Support</h3>
+              <p>Content planning and basic marketing support for Facebook, Instagram, and TikTok, with messaging tailored to each platform.</p>
+            </article>
+            <article class="service">
+              <h3>Affiliate Marketing Support</h3>
+              <p>Affiliate content ideas, Pinterest pin planning, and clear descriptions that introduce relevant products or resources.</p>
+            </article>
+            <article class="service">
+              <h3>Shopify Product Listings</h3>
+              <p>Practice and support with product titles, descriptions, variants, tags, and organized product information for an online store.</p>
+            </article>
+            <article class="service">
+              <h3>Email & Virtual Assistance</h3>
+              <p>HTML email signature setup and organized online support, including detail-focused administrative tasks.</p>
+            </article>
+            <article class="service">
+              <h3>Crochet & Handmade Creations</h3>
+              <p>A space to share my crochet journey, handmade pieces, creative ideas, and the care that goes into making something by hand.</p>
+            </article>
+          </div>
+          <div class="tag-row">
+            <span class="tag">Pinterest</span><span class="tag">SEO</span><span class="tag">Facebook</span>
+            <span class="tag">Instagram</span><span class="tag">TikTok</span><span class="tag">Shopify</span>
+            <span class="tag">Email Marketing</span><span class="tag">Virtual Assistance</span>
+          </div>
+        </section>
+
+        <section id="approach">
+          <h2>My Approach</h2>
+          <p><strong>Understand the goal.</strong> I start by learning what a business wants to communicate and who it wants to reach.</p>
+          <p><strong>Keep the work organized.</strong> I aim for clear structure, consistent details, and content that fits the platform.</p>
+          <p><strong>Keep learning.</strong> I’m growing my practical portfolio and improving my skills through hands-on practice and continued learning.</p>
+          <p class="muted">Portfolio note: this page describes my service areas. Add your own sample projects as you create them, and label practice projects honestly.</p>
+          <p><strong>My Crochet Corner</strong><br>Alongside digital work, I also want to showcase crochet and handmade creativity here. This section can grow with photos of my finished pieces, works in progress, and new designs.</p>
+        </section>
+
+        <section id="contact">
+          <div class="contact-card">
+            <h2>Let’s Connect</h2>
+            <p>If you’re looking for support with Pinterest, social media content, product listings, or online business tasks, feel free to contact me by email.</p>
+            <p><strong>Email:</strong> syedamysha55@gmail.com</p>
+            <a class="contact-link" href="mailto:syedamysha55@gmail.com?subject=Work%20Inquiry">Contact Me by Email</a>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer>© <span id="year">2026</span> Syeda Mysha · Digital Marketing Portfolio</footer>
+  </div>
+</body>
+</html>
